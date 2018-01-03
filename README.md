@@ -5,11 +5,12 @@ dns tunnel dectect with CNN model
 
 ---
 使用方法：
+
 (1) 安装requirements lib：pip install -r requirements.txt
 
 (2) 训练模型: python dns_tunnel_train_model.py
 
 (3) 预测xshell： python dns_tunnel_predict_xshell.py 
  
-**注：dns tunnel工具的DNS流量样本请参考 [《DNS隐蔽通道检测——数据收集，利用iodine进行DNS隐蔽通道样本收集》](http://www.cnblogs.com/bonelee/p/8081744.html)。**
+**注：dns tunnel工具的DNS流量样本收集请参考 [《DNS隐蔽通道检测——数据收集，利用iodine进行DNS隐蔽通道样本收集》](http://www.cnblogs.com/bonelee/p/8081744.html)。**
 
