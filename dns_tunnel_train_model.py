@@ -105,7 +105,7 @@ def get_local_data(tag="labeled"):
                             white_data.append(subdomain)
                         elif "cdn" in path:
                             cdn_data.append(subdomain)
-                        elif "black" in path and "pcap" in path:
+                        elif "black" in path:
                             black_data.append(subdomain)
                         else:
                             pass
